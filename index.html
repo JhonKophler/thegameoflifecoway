@@ -18,15 +18,18 @@
     <title>Game Of Life</title>
 </head>
 
-<body>
+<body data-bs-target="#navbar" data-bs-spy="scroll">
     <div class="play">
         <button>JUGAR</button>
     </div>
-    <nav id="navbar"class="navegacion">
-        <ul class="menu nav nav-pills ">
-            <li class="menu-flotante nav nav-item">
-                <a href="#" class="nav-link">Inicio</a>
-                <ul class="submenu">
+    <nav id="navbar"class="navegacion navbar ">
+        <ul class="menu nav-pills">
+            <li class="menu-flotante nav-item">
+                <a>G.O.L</a>
+                <ul class="submenu nav-pills">
+                    <li>
+                        <a href="index.html#conway" class="nav-link">Historia</a>
+                    </li>
                     <li>
                         <a href="index.html#jug" class="nav-link">Jugabilidad</a>
                     </li>
@@ -36,22 +39,22 @@
                 </ul>
             </li>
             <li class="menu-flotante nav-item">
-                <a href="index.html#nos">Nosotros</a>
-                <ul class="submenu">
+                <a href="index.html#nos" class="nav-item">Nosotros</a>
+                <ul class="submenu nav-pills">
                     <li>
-                        <a href="index.html#mel">Melisa</a>
+                        <a href="index.html#mel" class="nav-link">Melisa</a>
                     </li>
                     <li>
-                        <a href="index.html#pab">Pablo</a>
+                        <a href="index.html#pab" class="nav-link">Pablo</a>
                     </li>
                     <li>
-                        <a href="index.html#jua">Juan</a>
+                        <a href="index.html#jua" class="nav-link">Juan</a>
                     </li>
                     <li>
-                        <a href="index.html#azu">Azucena</a>
+                        <a href="index.html#azu" class="nav-link">Azucena</a>
                     </li>
                     <li>
-                        <a href="index.html#giuli">Giuliana</a>
+                        <a href="index.html#giuli" class="nav-link">Giuliana</a>
                     </li>
                 </ul>
             </li>
@@ -65,16 +68,19 @@
                 <a class="nav-link">Merch</a>
                 <ul class="submenu">
                     <li>
-                        <a href="index.html#merchandising">Accesorios</a>
+                        <a href="index.html#merchandising" class="nav-link">Accesorios</a>
                     </li>
                     <li>
-                        <a href="index.html#accGamer">Accesorios Gamer</a>
+                        <a href="index.html#accGamer" class="nav-link">Accesorios Gamer</a>
                     </li>
                 </ul>
             </li>
             <li class="menu-flotante nav-item">
-                <a href="HTML/login.html" class="nav-link">Ingresar</a>
+                <a class="nav-link">Login</a>
                 <ul class="submenu">
+                    <li>
+                        <a href="HTML/login.html">Ingresar</a>
+                    </li>
                     <li>
                         <a href="HTML/register.html">Registrarse</a>
                     </li>
@@ -85,7 +91,11 @@
 
     <section>
         <article id="conway">
-            <img src="../Source/conway_1k.jpg" class="img-fluid" alt="">
+            <div class="foto">
+                <h3 class="name-img">Creador</h3>
+                <img src="../Source/conway_1k.jpg" class="img-fluid" alt="">
+                <h3 class="name-img">John Horton Conway</h3>
+            </div>
             <div id="inicio" class="historia">
                 <h3>EL JUEGO DE LA VIDA</h3>
                 <p>
